@@ -1,4 +1,6 @@
-/*Header*/
+.body { 
+  font-family: "Roboto", sans-serif
+} 
 .header {
 box-sizing: border-box;
 position: absolute;
@@ -9,12 +11,45 @@ top: 0px;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
 }
+.nav-item {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+
+}
+.list {
+  width: 48px;
+  height: 24px;
+  
+  /* Body Medium */
+  
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.02em;
+  
+  /* NAVY BLUE */
+  
+  color: #2E2F42;
+}
 .link {
 padding-left: 156px;
 padding-top: 24px;
 padding-right: 1169px;
 border-radius: 0px;
-font-family: "Raleway", sans-serif;
+font-family: "Raleway",sans-serif;
 font-style: normal;
 line-height: 1.17;
 font-weight: 800;
@@ -28,17 +63,36 @@ color: #4D5AE5;
 text-decoration: none;
 }
 .span-logo {
-font-family: "Raleway", sans-serif;
+font-family: "Raleway",sans-serif;
 color: #2E2F42;
 line-height: 1.17;
 }
 .nav-item {
-display: flex;
+  display: flex;
 flex-direction: row;
+align-items: flex-start;
+padding: 0px;
 gap: 40px;
-padding-left: 347px;
-padding-top:0px;
-padding-bottom: 24px;
+
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+}
+.list {
+  width: 67px;
+height: 24px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+flex: none;
+order: 2;
+flex-grow: 0;
 }
 .mail-link {
 position: absolute;
@@ -46,7 +100,7 @@ width: 153px;
 height: 24px;
 left: 940px;
 top: 24px;
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
