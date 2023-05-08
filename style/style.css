@@ -1,49 +1,109 @@
+/*Header*/
 .header {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
-  color: #E7E9FC;
+box-sizing: border-box;
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
 }
 .logo-link {
-  font-family:"Raleway", sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  line-height: 1.17;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;}
-
-  .span-logo {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-
-    
-    color: #2E2F42;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;}
-.body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+padding-left: 156px;
+padding-top: 24px;
+padding-right: 1169px;
+border-radius: 0px;
+font-family: "Raleway", sans-serif;
+font-style: normal;
+line-height: 1.17;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
 }
+.span-logo {
+font-family: "Raleway", sans-serif;
+color: #2E2F42;
+}
+.nav-item {
+display: flex;
+flex-direction: row;
+gap: 40px;
+padding-left: 347px;
+padding-top:0px;
+padding-bottom: 24px;
+}
+.mail-link {
+position: absolute;
+width: 153px;
+height: 24px;
+left: 940px;
+top: 24px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.tel-link {
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*section1*/
+.section-button {
+  position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+background: #2E2F42;
+}
+.text {
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  padding-left: 472px;
+  padding-top: 188px;
+  
+  /* Header 1 */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+  
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  /* WHITE */
+  
+  color: #FFFFFF;
+  }
+
+
+
+
+
+
+    
+
 
