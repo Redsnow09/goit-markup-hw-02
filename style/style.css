@@ -9,7 +9,7 @@ top: 0px;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
 }
-.logo-link {
+.link {
 padding-left: 156px;
 padding-top: 24px;
 padding-right: 1169px;
@@ -30,6 +30,7 @@ text-decoration: none;
 .span-logo {
 font-family: "Raleway", sans-serif;
 color: #2E2F42;
+line-height: 1.17;
 }
 .nav-item {
 display: flex;
