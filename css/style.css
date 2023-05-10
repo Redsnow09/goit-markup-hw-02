@@ -16,7 +16,7 @@
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
-.link-logo {
+.link {
   padding-left: 156px;
   padding-top: 24px;
   font-family: "Raleway", sans-serif;
@@ -38,7 +38,7 @@
   color: #2e2f42;
   line-height: 1, 16;
 }
-.nav-item {
+.list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -49,8 +49,9 @@
   height: 24px;
   left: 347px;
   top: 8px;
+  list-style: none;
 }
-.list {
+.item {
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
