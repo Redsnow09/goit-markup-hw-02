@@ -1,4 +1,4 @@
-.body {
+:root .body {
   width: 1440px;
   height: 2592px;
   font-family: "Roboto", sans-serif;
@@ -23,11 +23,12 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #4d5ae5;
 }
 .span-logo {
@@ -56,6 +57,7 @@
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #2e2f42;
 }
 .address-list {
@@ -70,8 +72,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #434455;
 }
 .tel-link {
@@ -84,6 +87,31 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 17;
+  line-height: 1.17;
+  text-decoration: none;
   color: #434455;
+}
+
+.section-subject {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
+}
+.subject {
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
