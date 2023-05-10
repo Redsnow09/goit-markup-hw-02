@@ -38,7 +38,7 @@
   color: #2e2f42;
   line-height: 1, 16;
 }
-.link-list {
+.link-studio {
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -60,6 +60,7 @@
   height: 24px;
   left: 347px;
   top: 6px;
+  list-style: none;
 }
 .address {
   font-style: normal;
