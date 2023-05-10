@@ -38,6 +38,8 @@
   color: #2e2f42;
   line-height: 1, 16;
 }
+.nav-list {
+}
 .link-studio {
   font-family: "Roboto" sans-serif;
   font-style: normal;
@@ -45,10 +47,9 @@
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  text-decoration: none;
   color: #2e2f42;
 }
-.list-item {
+.list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
