@@ -4,3 +4,35 @@
   font-family: "Roboto", sans-serif;
   background: #ffffff;
 }
+.header {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.logo {
+  padding-left: 156px;
+  padding-top: 24px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.span-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #2e2f42;
+  line-height: 1, 16;
+}
