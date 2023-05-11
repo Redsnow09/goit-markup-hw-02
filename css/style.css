@@ -10,10 +10,18 @@
   list-style: none;
 }
 
-.menu-list .mail-link .tel-link :hover {
+.menu-list :hover {
   color: #404bbf;
 }
-.menu-list .mail-link .tel-link :focus {
+.menu-list :focus {
+  color: #404bbf;
+}
+
+.mail-link :hover {
+  color: #404bbf;
+}
+
+.mail-link :focus {
   color: #404bbf;
 }
 
