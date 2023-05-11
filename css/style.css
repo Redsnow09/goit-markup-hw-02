@@ -50,6 +50,12 @@
   color: #2e2f42;
 }
 .menu-list {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.15;
+  color: #2e2f42;
 }
 .address {
 }
