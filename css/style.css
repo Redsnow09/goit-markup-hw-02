@@ -33,6 +33,8 @@
   color: #434455;
 }
 
+/**---------------HEADER--------------**/
+
 .header {
   box-sizing: border-box;
   width: 1440px;
@@ -95,3 +97,5 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/**---------------SECTION1--------------**/
