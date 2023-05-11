@@ -39,7 +39,7 @@
 }
 .nav-list {
 }
-.link-studio {
+.link-menu {
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -47,6 +47,7 @@
   letter-spacing: 0.02em;
   line-height: 1.5;
   list-style: none;
+  text-decoration: none;
   color: #2e2f42;
 }
 .list {
@@ -62,10 +63,12 @@
   left: 347px;
   top: 6px;
   list-style: none;
+  text-decoration: none;
 }
 .address {
   font-style: normal;
-  list-style: none;
+
+  text-decoration: none;
 }
 
 .link-mail {
