@@ -10,8 +10,10 @@
   list-style: none;
 }
 
-.menu-list :hover,
-:focus {
+.menu-list .mail-link .tel-link :hover {
+  color: #404bbf;
+}
+.menu-list .mail-link .tel-link :focus {
   color: #404bbf;
 }
 
@@ -25,7 +27,6 @@
 
 .header {
   box-sizing: border-box;
-  position: absolute;
   width: 1440px;
   height: 72px;
   left: 0px;
