@@ -65,9 +65,9 @@
 }
 .address {
   font-style: normal;
+  list-style: none;
 }
-.list-addess {
-}
+
 .link-mail {
   position: absolute;
   width: 153px;
