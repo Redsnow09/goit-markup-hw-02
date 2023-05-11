@@ -1,5 +1,13 @@
 :root {
+  --site-color: #2e2f42;
 }
+
+.link {
+}
+
+.list {
+}
+
 .body {
   width: 1440px;
   height: 2592px;
@@ -7,6 +15,7 @@
   background: #ffffff;
   color: #434455;
 }
+
 .header {
   box-sizing: border-box;
   position: absolute;
@@ -17,107 +26,33 @@
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
-.link {
-  padding-left: 156px;
-  padding-top: 24px;
-  font-family: "Raleway", sans-serif;
+
+.nav-list {
+}
+
+.logo {
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+  line-height: 1.15;
   color: #4d5ae5;
 }
-.link-logo {
-  font-family: "Raleway", sans-serif;
+.logo-studio {
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
+  font-size: 18px;
+  line-height: 1.15;
   color: #2e2f42;
-  line-height: 1, 16;
 }
-.list-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 7px;
-}
-.list-menu :hover {
-  color: #404bbf;
-}
-.link-menu {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
+.menu-list {
 }
 .address {
-  font-style: normal;
-  text-decoration: none;
 }
-.link-mail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #434455;
+.address-list {
 }
-.link-tel {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  text-decoration: none;
-  color: #434455;
+.mail-link {
 }
-
-.section-subject {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
-  background: #2e2f42;
-}
-.subject {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+.tel-link {
 }
