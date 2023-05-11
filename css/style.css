@@ -3,6 +3,7 @@
 }
 
 .link {
+  text-decoration: none;
 }
 
 .list {
@@ -27,23 +28,27 @@
   border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-list {
+.nav {
 }
 
 .logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.15;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-studio {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 .menu-list {
