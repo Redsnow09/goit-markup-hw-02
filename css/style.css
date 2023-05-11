@@ -10,6 +10,11 @@
   list-style: none;
 }
 
+.menu-list :hover,
+:focus {
+  color: #404bbf;
+}
+
 .body {
   width: 1440px;
   height: 2592px;
