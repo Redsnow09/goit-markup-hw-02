@@ -172,6 +172,9 @@
 }
 
 /**---------------PORTFOLIO SECTION1--------------**/
+.button-list {
+  list-style: none;
+}
 .btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
