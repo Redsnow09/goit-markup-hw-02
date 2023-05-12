@@ -120,11 +120,11 @@
 }
 
 .button-top {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: o.92;
+  line-height: 1.15;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
