@@ -10,19 +10,19 @@
   list-style: none;
 }
 
-.menu-item :hover {
+.menu-list :hover {
   color: #404bbf;
 }
 
-.menu-item :focus {
+.menu-list :focus {
   color: #404bbf;
 }
 
-.address-list .mail-link link:hover {
+.address-list :hover {
   color: #404bbf;
 }
 
-.address-list .mail-link link:focus {
+.address-list :focus {
   color: #404bbf;
 }
 
