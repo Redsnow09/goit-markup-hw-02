@@ -10,20 +10,6 @@
   list-style: none;
 }
 
-.menu-list .menu-item :focus {
-  color: #404bbf;
-}
-.menu-item .menu-item :hover {
-  color: #404bbf;
-}
-
-.address-list :focus {
-  color: #404bbf;
-}
-.address-list :hover {
-  color: #404bbf;
-}
-
 .body {
   width: 1440px;
   height: 2592px;
@@ -76,6 +62,14 @@
   color: #2e2f42;
 }
 
+.menu-item:focus {
+  color: #404bbf;
+}
+
+.menu-item:hover {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -90,14 +84,11 @@
   color: #434455;
 }
 
-.tel-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  color: #434455;
+.mail-link:focus {
+  color: #404bbf;
+}
+.mail-link:hover {
+  color: #404bbf;
 }
 
 /**---------------SECTION1--------------**/
