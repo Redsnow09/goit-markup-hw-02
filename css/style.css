@@ -162,6 +162,8 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
+/**---------------SECTION3--------------**/
+
 .team {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -172,6 +174,27 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.speciality {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /**---------------SECTION4--------------**/
