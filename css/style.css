@@ -121,17 +121,16 @@
 
 .button-top {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.15;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
 }
+
 .button-top :focus {
   background-color: #404bbf;
 }
