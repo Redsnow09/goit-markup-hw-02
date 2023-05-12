@@ -52,6 +52,10 @@
   color: #2e2f42;
 }
 
+.menu-item:hover {
+  color: #404bbf;
+}
+
 .menu-item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -63,10 +67,6 @@
 }
 
 .menu-item:focus {
-  color: #404bbf;
-}
-
-.menu-item:hover {
   color: #404bbf;
 }
 
