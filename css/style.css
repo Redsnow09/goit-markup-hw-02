@@ -219,7 +219,16 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  cursor: pointer;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.btn :hover {
+  background-color: #404bbf;
+}
+.btn :focus {
+  background-color: #404bbf;
 }
 
 /**---------------FOOTER--------------**/
