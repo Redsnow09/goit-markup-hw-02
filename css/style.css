@@ -10,8 +10,11 @@
   list-style: none;
 }
 
-.menu-list :focus,
 .menu-list :hover {
+  color: #404bbf;
+}
+
+.menu-list :focus {
   color: #404bbf;
 }
 
