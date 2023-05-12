@@ -131,10 +131,7 @@
   cursor: pointer;
 }
 
-.button-top :focus {
-  background-color: #404bbf;
-}
-
+.button-top :focus,
 .button-top :hover {
   background-color: #404bbf;
 }
