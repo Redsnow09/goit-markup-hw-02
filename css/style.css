@@ -10,19 +10,13 @@
   list-style: none;
 }
 
+.menu-list .menu-item:focus,
 .menu-list .menu-item :hover {
   color: #404bbf;
 }
 
-.menu-list .menu-item:focus {
-  color: #404bbf;
-}
-
+.address-list .address-list :focus,
 .address-list .address-list :hover {
-  color: #404bbf;
-}
-
-.address-list .address-list :focus {
   color: #404bbf;
 }
 
