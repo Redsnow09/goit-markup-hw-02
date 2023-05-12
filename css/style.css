@@ -70,6 +70,10 @@
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 .mail-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
