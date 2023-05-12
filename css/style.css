@@ -91,7 +91,7 @@
   color: #404bbf;
 }
 
-/**---------------SECTION1--------------**/
+/**---------------SECTION 1--------------**/
 .title-top {
   position: absolute;
   width: 1440px;
@@ -130,7 +130,7 @@
   background-color: #404bbf;
 }
 
-/**---------------SECTION2--------------**/
+/**---------------SECTION 2--------------**/
 .paragraph {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -150,7 +150,7 @@
   color: #434455;
 }
 
-/**---------------SECTION3--------------**/
+/**---------------SECTION 3--------------**/
 .work {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -162,7 +162,7 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-/**---------------SECTION4--------------**/
+/**---------------SECTION 4--------------**/
 .section-four {
   background-color: #f4f4fd;
 }
