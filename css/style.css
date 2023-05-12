@@ -167,10 +167,6 @@
   background-color: #f4f4fd;
 }
 
-.team-list {
-  background-color: #ffffff;
-}
-
 .team {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -182,6 +178,11 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.foto {
+  background-color: #ffffff;
+}
+
 .name {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -221,9 +222,6 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-.footer {
-  background: #2e2f42;
 }
 
 /**---------------FOOTER--------------**/
