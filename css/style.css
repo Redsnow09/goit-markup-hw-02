@@ -200,7 +200,8 @@
   list-style: none;
 }
 
-.btn:is(:hover, :focus) {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
