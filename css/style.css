@@ -84,10 +84,11 @@
   color: #434455;
 }
 
-.mail-link:focus {
+.mail-link:hover {
   color: #404bbf;
 }
-.mail-link:hover {
+
+.mail-link:focus {
   color: #404bbf;
 }
 
@@ -224,11 +225,11 @@
   background-color: #f4f4fd;
 }
 
-.button-list .btn :hover {
+.btn:hover {
   background-color: #404bbf;
   color: #ffffff;
 }
-.button-list .btn :focus {
+.btn:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
