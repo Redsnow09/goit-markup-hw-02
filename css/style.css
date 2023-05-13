@@ -52,7 +52,7 @@
   color: #2e2f42;
 }
 
-.menu-item::is(:hover, :focus) {
+.menu-item:is(:hover, :focus) {
   color: #404bbf;
 }
 
