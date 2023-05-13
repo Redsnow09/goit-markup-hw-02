@@ -94,7 +94,7 @@
 
 .button-top:hover,
 .button-top:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .button-top {
   font-family: "Roboto", sans-serif;
