@@ -11,8 +11,6 @@
 }
 
 .body {
-  width: 1440px;
-  height: 2592px;
   font-family: "Roboto", sans-serif;
   background: #ffffff;
   color: #434455;
@@ -22,10 +20,6 @@
 
 .header {
   box-sizing: border-box;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -86,11 +80,6 @@
 
 /**---------------SECTION 1--------------**/
 .title-top {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: #2e2f42;
 }
 
