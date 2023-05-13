@@ -192,8 +192,8 @@
   list-style: none;
 }
 
-.button-list:hover,
-.button-list:focus {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
