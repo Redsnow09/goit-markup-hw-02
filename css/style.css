@@ -95,7 +95,7 @@
 }
 
 .button-top:hover,
-.mail-link:focus {
+.button-top:focus {
   color: #404bbf;
 }
 .button-top {
