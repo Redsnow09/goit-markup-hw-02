@@ -52,7 +52,8 @@
   color: #2e2f42;
 }
 
-.menu-item:is(:hover, :focus) {
+.menu-item:hover,
+.menu-item:focus {
   color: #404bbf;
 }
 
@@ -116,7 +117,8 @@
   cursor: pointer;
 }
 
-.button-top:is(:hover, :focus) {
+.menu-item:hover,
+.menu-item:focus {
   background-color: #404bbf;
 }
 
