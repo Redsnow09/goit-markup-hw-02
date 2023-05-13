@@ -80,7 +80,8 @@
   color: #434455;
 }
 
-.mail-link:is(:hover, :focus) {
+.mail-link:hover,
+.mail-link:focus {
   color: #404bbf;
 }
 
