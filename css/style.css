@@ -70,7 +70,10 @@
 .address {
   font-style: normal;
 }
-
+.mail-link:hover,
+.mail-link:focus {
+  color: #404bbf;
+}
 .mail-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -102,6 +105,10 @@
   color: #ffffff;
 }
 
+.button-top:hover,
+.mail-link:focus {
+  color: #404bbf;
+}
 .button-top {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
