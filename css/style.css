@@ -81,10 +81,6 @@
   color: #434455;
 }
 
-.mail-link:is(:hover, :focus) {
-  color: #404bbf;
-}
-
 /**---------------SECTION 1--------------**/
 .title-top {
   position: absolute;
@@ -116,12 +112,6 @@
   background-color: #4d5ae5;
   cursor: pointer;
 }
-
-.menu-item:hover,
-.menu-item:focus {
-  background-color: #404bbf;
-}
-
 /**---------------SECTION 2--------------**/
 .paragraph {
   font-family: "Roboto", sans-serif;
@@ -202,7 +192,8 @@
   list-style: none;
 }
 
-.btn:is(:hover, :focus) {
+.button-list:hover,
+.button-list:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
