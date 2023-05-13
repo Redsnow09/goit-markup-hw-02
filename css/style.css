@@ -1,5 +1,5 @@
 :root {
-  --site-color: #2e2f42;
+  --buttom-color: #404bbf;
 }
 
 .link {
@@ -96,6 +96,7 @@
 .button-top:focus {
   background-color: #404bbf;
 }
+
 .button-top {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
