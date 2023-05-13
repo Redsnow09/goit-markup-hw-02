@@ -124,10 +124,7 @@
   cursor: pointer;
 }
 
-.button-top:focus {
-  background-color: #404bbf;
-}
-.button-top:hover {
+.button-top:is(:hover, :focus) {
   background-color: #404bbf;
 }
 
@@ -210,6 +207,12 @@
 .button-list {
   list-style: none;
 }
+
+.btn:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -225,21 +228,9 @@
   background-color: #f4f4fd;
 }
 
-.btn:is(:hover, :focus) {
-  background-color: #404bbf;
-  color: #ffffff;
-}
-.btn:focus {
-  background-color: #404bbf;
-  color: #ffffff;
-}
-
 .portfolio-list {
 }
-.list {
-}
-.link {
-}
+
 .portfolio-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
