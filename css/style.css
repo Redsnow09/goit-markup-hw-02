@@ -56,6 +56,10 @@
   color: #404bbf;
 }
 
+.menu-item:focus {
+  color: #404bbf;
+}
+
 .menu-item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -64,10 +68,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.menu-item:focus {
-  color: #404bbf;
 }
 
 .address {
@@ -123,10 +123,10 @@
   cursor: pointer;
 }
 
-.button-top :focus {
+.button-top:focus {
   background-color: #404bbf;
 }
-.button-top :hover {
+.button-top:hover {
   background-color: #404bbf;
 }
 
