@@ -225,7 +225,7 @@
   background-color: #f4f4fd;
 }
 
-.btn:hover {
+.btn:is(:hover, :focus) {
   background-color: #404bbf;
   color: #ffffff;
 }
