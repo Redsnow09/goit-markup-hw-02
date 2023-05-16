@@ -41,13 +41,6 @@
 }
 
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--footer-color);
 }
 
@@ -72,7 +65,6 @@
   color: var(--buttom-color);
 }
 .mail-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -187,7 +179,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--buton);
